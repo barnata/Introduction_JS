@@ -17,5 +17,19 @@ JE vous demanderai ainsi de toujours rendre vos projets et/ou TP sur votre GIT P
 - git reset -> si vous avez ajouter un mauvais fichier a votre liste temporaire ou un fichier que vous ne vouliez pas encore ajouter => entraine un clean total de la list
 -  git clone -> clone/copy de maniere local un repo stocke sur Github ou Gitlab ou encore Gist soit n'importe quelle application de Versionning  
 
-### Les Branch
-Pour faire simple, vous devez les prendre comme des sous repo
+###Les Branch
+Pour faire simple, vous devez les prendre comme des sous repo plus ou moins speciaux ou sinon vous pensez l'arbre comme etant le projet final, et les branch comme des parties intrinseques au projet qui une fois rassembler sur le tronc (La branch master) forme la release du projet -> LE PROJET FINI !!
+
+###Les Commits
+Les commits sont des bouts de mise a jour d'un code entier ils sont la pour pouvoir en cas de panne ou d'erreur dans le code pouvoir faire un retour en arriere, ils peuvent ainsi aussi servir de backup lorsque certaines features de votre application sont finie ou si des parties importantes de code vous semble parfaites et que vous voulez garder un checkpoint avant d'attaquer un point sensible de votre architecture...
+Un commit se represente ainsi comme dit precedement, comme une liste de fichier mis a jours par vos petite mimines suivit d'un header -> comme une entete qui se definit comme un message de commit, c'est a dire un message que vous ecrivez qui vous permet de savoir en un coup d'oeuil les modifications apporter et/ou les ajout/suppression de fichier de votre repo.
+
+### Push et Pull
+Alors la c'est assez simple Push->Pousser et Pull->Tirer Ainsi imaginer ceci comme
+```bash
+$MON_PC->GIT == PUSH
+GIT->$MON_PC == PULL
+```
+
+du coup vous vous doutez que une fois commit vous allez push sur votre repo ce qui enverra votre commit (Bien Effectivement cela necessite bien evidement un COMMIT minimum au prealable) sur le repo stocke sur l'INTERNET
+Quand au pull c'est quand vous voulez atteindre une mise a jour du repo stocke sur github de votre repo -> utilise souvent en team
