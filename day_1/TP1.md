@@ -33,3 +33,7 @@ GIT->$MON_PC == PULL
 
 du coup vous vous doutez que une fois commit vous allez push sur votre repo ce qui enverra votre commit (Bien Effectivement cela necessite bien evidement un COMMIT minimum au prealable) sur le repo stocke sur l'INTERNET
 Quand au pull c'est quand vous voulez atteindre une mise a jour du repo stocke sur github de votre repo -> utilise souvent en team
+
+##Premier clone, premier commit, premier push
+Bien maintenant que vous etes des "ROIS" de git je vais vous demander de cloner ce [REPO](http://www.github.com/Rand-IA/Introduction_JS) sur votre machine !!
+Une fois fini vous allez vous rendre dans DAY_1 pour acceder a ces fichier
