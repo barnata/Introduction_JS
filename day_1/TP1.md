@@ -85,3 +85,20 @@ Il vous faut savoir la difference entre la concatenation et l'ajout de paramettr
 	console.log("Un objet JS =" , obj); // Affiche Un objet JS = obj{key : "value"}
 ```
 Si vous ne comprenez toujours pas la difference ce n'est pas trop grave pour l'instant je vous demande juste de vous rappeller que les deux cas sont possibles
+
+## First Project
+### Exo 1
+Votre mission si vous l'acceptez, sera de me faire une fonction qui une fois loggée ecrira ce que prend la fonction en paramettre !
+### Exo 2
+Bien maintenant que savez comment faire, je pense que vous avez compris le log et les fonction nous allons voir comment faire un semblant d'objet en JS
+Un objet en JS n'est rien d'autre qu'une fonction stockee dans une variable, ainsi la fonction sera ce qu'on appelle le constructeur et le nom de variable sera le nom de l'objet
+Voici un exemple
+```javascript
+
+var Rety = function(arg) {
+    this._arg = arg
+}
+
+var UselessPerson = new Rety("Hello");
+
+```
