@@ -52,3 +52,36 @@ bien du coup vous aller inscrire la premiere expression ou ligne de code que vou
 ```javascript
 	console.log("Hello World");
 ```
+
+Cette ligne de commande pernet de "logger" sur la console de votre navigateur ce que vous voulez, ainsi vous pouvez logger un objet JS(JSON) ou encore une fonction ou encore une String quelquonque. 
+Vous apprendrez par la suite que le console.log ba c'est la vie et que on l'utilise enormement
+
+##Premiere fonction
+Bien, les logs c'est bien mais tout seul ca sert a rien, nous voila donc a faire nos premiere fonctions.
+Ce qu'il faut savoir c'est que en JS, le typage est implicite, pour faire simple vous ne donnez jamais de type a vos variable il vous suffit donc pour l'instant de savoir que toute declaration de variable commence par var.
+Pour ce qui est des fonction rien de mieux qu'un exemple
+```javascript
+
+	function maFonction(arg1, arg2) {
+		 console.log(arg1,arg2);
+	}
+
+```
+cette fonction s'appelle donc maFonction et prend deux arguments, (RAPPEL : le typage est implicite, ne donner pas de type a vos variable), pour finir, vous l'aurez compris cette simple fonction log sur la console de Firefox le contenu de arg1 et de arg2
+
+### ATTENTION
+Il vous faut savoir la difference entre la concatenation et l'ajout de paramettre sur un log :
+- Dans le cas le la concatenation on utilisera le + : 
+```javascript
+	var hello = "Hello ";
+	console.log(hello + "World !") // Affiche Hello World !
+```
+- Dans le cas de l'ajout de paramettre on utilise le ',' il est utiliser quand on veut loger deux Objets ou vars pour avoir plus d'info.
+```javascript
+	var obj = {
+	    key : "value"
+	};
+	console.log("Un objet JS =" + obj); // Affiche Un objet JS = [Object]
+	console.log("Un objet JS =" , obj); // Affiche Un objet JS = obj{key : "value"}
+```
+Si vous ne comprenez toujours pas la difference ce n'est pas trop grave pour l'instant je vous demande juste de vous rappeller que les deux cas sont possibles
