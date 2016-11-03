@@ -1,7 +1,7 @@
 #TP 2
 ## Premices
 Hello tout le monde, la deniere fois, nous avons vu les bases du JS, petit rappel : les variables, les log, et les fonctions, cette semaine, nous allons encore voir les console.log mais dans la pratique car comme je vous le disais les logs on va en faire par millier, deja pour toujours avoir un oeuil sur ce qu'on fait mais aussi tout simplement pour debug les fonction.
-Nous allons donc devoir manipuler le [DOM](http://www.google.com) (Domain Object Model) qui represente votre page HTML sous forme de Nodes, comme de multiples entites qui compose la page, ainsi pour faire simple prenez Node comme une balise generique sans TYPE ou le type contenu dans un ensemble tel {p, div, form, h1, h2 ...} Le ut de ce TP aura ainsi pour finaliter de faire un petit site intenet avec seulement une architecture base de html et que du JS
+Nous allons donc devoir manipuler le [DOM](https://fr.wikipedia.org/wiki/Document_Object_Model) (Document Object Model) qui represente votre page HTML sous forme de Nodes, comme de multiples entites qui compose la page, ainsi pour faire simple prenez Node comme une balise generique sans TYPE ou le type contenu dans un ensemble tel {p, div, form, h1, h2 ...} Le ut de ce TP aura ainsi pour finaliter de faire un petit site intenet avec seulement une architecture base de html et que du JS
 
 nous partirons ainsi avec cette structure :
 ```html
@@ -31,7 +31,7 @@ Faites quelques fonction de votre choix et utilisez les pour voir si tout marche
 ##Exo 2
 Nous allons maintenant attaquer le DOM afin de creer le nouveau Facebook ... non je rigole bien sur que non, mais on verra qu'on peut faire un truc sympas avec seulement une masnipulation du DOM
 voici donc deux fonctions que vous allez utiliser tout le temps a vous de le comprendre avec des manipulation
-```javacript
+```javascript
 	document.getElementByID(id_elem);
 	document.createElement(TYPE_ELEM);
 	document.appendeChild(*:Node);
@@ -52,3 +52,4 @@ Pour cet exercice, je vous demanderai de trouver par vous meme AVEC LES MAN ET L
 
 ##Exo 4
 Nous allons voir dans cette parti quelque chose de necessaire en JS, les evenements !!!
+
