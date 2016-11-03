@@ -52,4 +52,12 @@ Pour cet exercice, je vous demanderai de trouver par vous meme AVEC LES MAN ET L
 
 ##Exo 4
 Nous allons voir dans cette parti quelque chose de necessaire en JS, les evenements !!!
-
+il en existe par dixaine, mais nous ne verrons que les plus connus et simple a manipuler, soit le click, et le hover.
+Ce qu'il faut savoir c'est que un evenement ne peut etre attrapé (catch) que sur des elements du DOM, ainsi il vous faut stocker votre element comme votre div dans une variable JS.
+La derniere chose a savoir c'est que tout evenement commence par on suivit de l'evenement. ainsi nous auront l'evenement onClick par exemple.
+Dans cette exercice je vous demande alors de creer un bouton en JS, de l'ajouter a votre div#app et faire en sorte a ce que un popup s'ouvre demandant si on a 18ans qui suivant la reponse raffichera un autre popup si oui disant que on peut acceder au site, sinon ajoute une div avec un message d'interdiction 
+Rappel :
+````javascript
+	function alert(*); // Affiche un popup
+	function confirm(*); // retourne un boolean et affiche un popup 
+```
