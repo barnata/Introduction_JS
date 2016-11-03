@@ -2,8 +2,8 @@
 Sur ce projet, nous allons voir les bases, c'est a dires, les fonctions, leur utilites, quand en faire et quand ne pas en faire, voir le differents type de variables suite a la norme ES6 (Ecmascript 6) [let, var, const]
 
 ## En route
-Bien, pour commencer vous aller INSTALLER SUBLIME TEXT 3 parce que apres tout on est pas que des pigeons comme RETY !!! donc oublier la merde de GEDIT (WARNING : si vous avez deja un IDE favoris qui supporte le JS gardez le :) ).
-Ensuite allez a cette adresse sur Firefox [GITHUB](http://www.github.com) -> Vous allez vous creer un compte avec nom_premiereLettrePrenom -> e.g : saison_a pour Alexandre Saison ou encore grelaud_l pour Lucas Grelaud
+Bien, pour commencer vous aller INSTALLER [SUBLIME TEXT 3](https://download.sublimetext.com/sublime_text_3_build_3126_x64.tar.bz2) parce que apres tout on est pas que des pigeons comme RETY !!! donc oublier la merde de GEDIT (WARNING : si vous avez deja un IDE favoris qui supporte le JS gardez le :) ).
+Ensuite allez a cette adresse sur Firefox [GITHUB](https://github.com/join?source=header-home) -> Vous allez vous creer un compte avec nom_premiereLettrePrenom -> e.g : saison_a pour Alexandre Saison ou encore grelaud_l pour Lucas Grelaud
 
 ##Intro a GIT
 Git est ce qu'on appelle un gestionnaire de Versionning pour ceux qui ne le saurais pas ... (On a tous ete noob un jour xD ), il permet a nous (Dev, Lead Dev, Project Manager) de pouvoir se partager du code de maniere soit OPEN SOURCE soit en private quand on est dans une Start-Up ou dans une compagnie.
@@ -51,4 +51,54 @@ Bon. on attaque tout ca ! ouvrez une balise script comme cela :
 bien du coup vous aller inscrire la premiere expression ou ligne de code que vous devez connaitre :
 ```javascript
 	console.log("Hello World");
+```
+
+Cette ligne de commande pernet de "logger" sur la console de votre navigateur ce que vous voulez, ainsi vous pouvez logger un objet JS(JSON) ou encore une fonction ou encore une String quelquonque. 
+Vous apprendrez par la suite que le console.log ba c'est la vie et que on l'utilise enormement
+
+##Premiere fonction
+Bien, les logs c'est bien mais tout seul ca sert a rien, nous voila donc a faire nos premiere fonctions.
+Ce qu'il faut savoir c'est que en JS, le typage est implicite, pour faire simple vous ne donnez jamais de type a vos variable il vous suffit donc pour l'instant de savoir que toute declaration de variable commence par var.
+Pour ce qui est des fonction rien de mieux qu'un exemple
+```javascript
+
+	function maFonction(arg1, arg2) {
+		 console.log(arg1,arg2);
+	}
+
+```
+cette fonction s'appelle donc maFonction et prend deux arguments, (RAPPEL : le typage est implicite, ne donner pas de type a vos variable), pour finir, vous l'aurez compris cette simple fonction log sur la console de Firefox le contenu de arg1 et de arg2
+
+### ATTENTION
+Il vous faut savoir la difference entre la concatenation et l'ajout de paramettre sur un log :
+- Dans le cas le la concatenation on utilisera le + : 
+```javascript
+	var hello = "Hello ";
+	console.log(hello + "World !") // Affiche Hello World !
+```
+- Dans le cas de l'ajout de paramettre on utilise le ',' il est utiliser quand on veut loger deux Objets ou vars pour avoir plus d'info.
+```javascript
+	var obj = {
+	    key : "value"
+	};
+	console.log("Un objet JS =" + obj); // Affiche Un objet JS = [Object]
+	console.log("Un objet JS =" , obj); // Affiche Un objet JS = obj{key : "value"}
+```
+Si vous ne comprenez toujours pas la difference ce n'est pas trop grave pour l'instant je vous demande juste de vous rappeller que les deux cas sont possibles
+
+## First Project
+### Exo 1
+Votre mission si vous l'acceptez, sera de me faire une fonction qui une fois loggée ecrira ce que prend la fonction en paramettre !
+### Exo 2
+Bien maintenant que savez comment faire, je pense que vous avez compris le log et les fonction nous allons voir comment faire un semblant d'objet en JS
+Un objet en JS n'est rien d'autre qu'une fonction stockee dans une variable, ainsi la fonction sera ce qu'on appelle le constructeur et le nom de variable sera le nom de l'objet
+Voici un exemple
+```javascript
+
+var Rety = function(arg) {
+    this._arg = arg
+}
+
+var UselessPerson = new Rety("Hello");
+
 ```
