@@ -3,7 +3,7 @@ Sur ce projet, nous allons voir les bases, c'est a dires, les fonctions, leur ut
 
 ## En route
 Bien, pour commencer vous aller INSTALLER [SUBLIME TEXT 3](https://download.sublimetext.com/sublime_text_3_build_3126_x64.tar.bz2) parce que apres tout on est pas que des pigeons comme RETY !!! donc oublier la merde de GEDIT (WARNING : si vous avez deja un IDE favoris qui supporte le JS gardez le :) ).
-Ensuite allez a cette adresse sur Firefox [GITHUB](http://www.github.com) -> Vous allez vous creer un compte avec nom_premiereLettrePrenom -> e.g : saison_a pour Alexandre Saison ou encore grelaud_l pour Lucas Grelaud
+Ensuite allez a cette adresse sur Firefox [GITHUB](https://github.com/join?source=header-home) -> Vous allez vous creer un compte avec nom_premiereLettrePrenom -> e.g : saison_a pour Alexandre Saison ou encore grelaud_l pour Lucas Grelaud
 
 ##Intro a GIT
 Git est ce qu'on appelle un gestionnaire de Versionning pour ceux qui ne le saurais pas ... (On a tous ete noob un jour xD ), il permet a nous (Dev, Lead Dev, Project Manager) de pouvoir se partager du code de maniere soit OPEN SOURCE soit en private quand on est dans une Start-Up ou dans une compagnie.
