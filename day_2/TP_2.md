@@ -49,7 +49,7 @@ Vous allez ansi creer un nouveau fichier functions.js et y creer toutes les font
 Une fois terminé, appelez vos fonctions dans votre premier fichier app.js afin de garder un code propre et separe.
 
 ##Exo 3
-Pour cet exercice, je vous demanderai de trouver par vous meme AVEC LES MAN ET LES DOC de javascript comment ajouter une image en JS puis me faire un mini site de presentation avec que des fonction (Il faudra surement creer une nouvelle fonction pour la gestion d'image :) )
+Pour cet exercice, je vous demanderai de trouver par vous meme AVEC LES MAN ET LES DOC de javascript par exemple la [MDN de Mozilla](https://developer.mozilla.org/fr/docs/Web/JavaScript) comment ajouter une image en JS puis me faire un mini site de presentation avec que des fonction (Il faudra surement creer une nouvelle fonction pour la gestion d'image :) )
 
 ##Exo 4
 Nous allons voir dans cette parti quelque chose de necessaire en JS, les evenements !!!
