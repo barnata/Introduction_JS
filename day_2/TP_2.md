@@ -30,13 +30,14 @@ Faites quelques fonction de votre choix et utilisez les pour voir si tout marche
 
 ##Exo 2
 Nous allons maintenant attaquer le DOM afin de creer le nouveau Facebook ... non je rigole bien sur que non, mais on verra qu'on peut faire un truc sympas avec seulement une masnipulation du DOM
-voici donc deux fonctions que vous allez utiliser tout le temps a vous de le comprendre avec des manipulation
+voici donc deux fonctions que vous allez utiliser tout le temps a vous de le comprendre avec des manipulation, pensez a les utiliser les manipuler et comprendre par vous meme ce qu'ils font
 ```javascript
 	document.getElementByID(id_elem);
 	document.createElement(TYPE_ELEM);
 	document.appendChild(*:Node);
 ```
-Apprenez a les utiliser penser au seul et unique
+###RAPPEL
+penser au seul et unique
 ```javascript
 	console.log(*);
 ```
