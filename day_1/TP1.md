@@ -36,4 +36,19 @@ Quand au pull c'est quand vous voulez atteindre une mise a jour du repo stocke s
 
 ##Premier clone, premier commit, premier push
 Bien maintenant que vous etes des "ROIS" de git je vais vous demander de cloner ce [REPO](http://www.github.com/Rand-IA/Introduction_JS) sur votre machine !!
-Une fois fini vous allez vous rendre dans DAY_1 pour acceder a ces fichier
+Une fois fini vous allez vous rendre dans DAY_1 pour acceder a ces fichier afin de prendre le fichier index.html
+
+### La balise script
+Bon. on attaque tout ca ! ouvrez une balise script comme cela :
+```html
+	<script>
+		/*
+			Ton Code JS se met ICI !!! e.g : console.log("Hello World")
+		*/
+	</script>
+```
+
+bien du coup vous aller inscrire la premiere expression ou ligne de code que vous devez connaitre :
+```javascript
+	console.log("Hello World");
+```
