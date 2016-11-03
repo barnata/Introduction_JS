@@ -34,7 +34,7 @@ voici donc deux fonctions que vous allez utiliser tout le temps a vous de le com
 ```javascript
 	document.getElementByID(id_elem);
 	document.createElement(TYPE_ELEM);
-	document.appendeChild(*:Node);
+	document.appendChild(*:Node);
 ```
 Apprenez a les utiliser penser au seul et unique
 ```javascript
