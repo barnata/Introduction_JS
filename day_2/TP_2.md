@@ -42,8 +42,7 @@ penser au seul et unique
 	console.log(*);
 ```
 ###Exo 2+
-
-Pour cet exo on va pouvoir mettre en place ce qu'on a deja vu avec les fonctions... vous devez avoir compris que peu importe ce que vous creer vous faites toujours plus ou moins la meme chose, creer un nouel element, puis lui ajouter du texte puis pour teminer l'ajouter a la node Parent voulue
+Pour cet exercice on va pouvoir mettre en place ce qu'on a deja vu avec les fonctions... vous devez avoir compris que peu importe ce que vous creer vous faites toujours plus ou moins la meme chose, creer un nouel element, puis lui ajouter du texte puis pour teminer l'ajouter a la node Parent voulue
 Vous allez ansi creer un nouveau fichier functions.js et y creer toutes les fontions necessaires a la creation de contenu.
 
 Une fois terminé, appelez vos fonctions dans votre premier fichier app.js afin de garder un code propre et separe.
