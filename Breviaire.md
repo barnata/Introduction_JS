@@ -8,7 +8,6 @@ In fact you may know that every documentation is written by default in English a
 
 	// Every *(wildcard) means that any type of data can be passed as a parameter !
 
-
 	void:console.log(*); // Log onto the WebBrowser console anything you want !
 	void:alert(*); // print a popup onto the screen with any value you want !
 	boolean:confirm(*); // return a boolean related on the button pressed on the popup

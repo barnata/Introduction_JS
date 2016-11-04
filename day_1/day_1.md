@@ -18,15 +18,15 @@ Voici donc LA NORME :
 
 ###La NORME
 ####Les variables
-une variable ne fait pas comme RETY peut le dire 20km de long OMG, si tu as besoin de deux fois d'un meme nom de variables, soit tu sais pas coder et en fait tu fait de la duplication de code donc -> FAIT UNE FONCTION !! Sinon tu peux soit chercher un synonime (il y en a toujours un qui convient), soit t'en battre les corrones, me pisser a la gueule et faire ton nom de 20km... mais viens pas me saouler si je te corrige pas une partie incomprise ou que j'ai la flemme de lire
+Une variable ne fait pas comme RETY peut le dire 20km de long OMG, si tu as besoin de deux fois d'un meme nom de variables, soit tu sais pas coder et en fait tu fait de la duplication de code donc -> FAIT UNE FONCTION !! Sinon tu peux soit chercher un synonime (il y en a toujours un qui convient), soit t'en battre les corrones, me pisser a la gueule et faire ton nom de 20km... mais viens pas me saouler si je te corrige pas une partie incomprise ou que j'ai la flemme de lire
 
 Attention, je vais vous apprendre des concepts que vous apprendrez au S2, qu'on appelle OBJET, n'ayez pas peur c'est cool et simple, ainsi je vous parlerai dans certain cas non plus de variable mais d'attributs qui sont en fait des variables mais qui definissent l'objet créé. CES ATTRIBUTS COMMENCENT INLASSABLEMENT PAR UN UNDERSCORE (CE MACHIN LA -> _ ).
 
 ####Les points virgules
-en JS (Javascript) les point virgules on s'en ballec mais... pas moi je suis reste nostalgique et de toute facon la plupart des langages fonctionnent encore avec des ';'
+En JS (Javascript) les point virgules on s'en ballec mais... pas moi je suis resté nostalgique et de toute facon la plupart des langages fonctionnent encore avec des ';'
 
 ####Les fonctions
-une fonction je la veux comme ca
+Une fonction je la veux comme ca
 
 function doSomething() {
 	// CODE
