@@ -27,12 +27,12 @@ En JS (Javascript) les point virgules on s'en ballec mais... pas moi je suis res
 
 ####Les fonctions
 Une fonction je la veux comme ca
-
-function doSomething() {
-	// CODE
-	return (var);
-}
-
+```javascript
+	function	doSomething() {
+		 // CODE
+		 return (var);
+	}
+```
 c'est a dire que je vous demande les accolades comme ca pour tout les cas (Les if/else switch et toutes les conneries), une indentations parfaite (4 espaces), et des parenthese pour les return 
 
 ####Les classes (Les objets)
@@ -40,7 +40,7 @@ je les veux sous le meme pattern :
 ```javascript
 class Object {
 
-	function constructor(args...) {
+	function	constructor(args...) {
 		this._name = "Object";
 		this._callback = function(args) {
 			var yolo;
@@ -52,11 +52,11 @@ class Object {
 		}
 	}
 
-	static function log(msg) {
+	static function	log(msg) {
 		console.log("[LOG] "+ msg);
 	} 
 
-	function doSomething(args, next) {
+	function	doSomething(args, next) {
 		if(args[0].length == 1) 
 			next(this._callack);
 		else
@@ -65,11 +65,11 @@ class Object {
 			});
 	}
 
-	function getName() {
+	function	getName() {
 		return (this._name);
 	}
 
-	function getCallback() {
+	function	getCallback() {
 		return (this._callback);
 	}
 }
