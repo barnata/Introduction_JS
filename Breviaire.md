@@ -44,3 +44,5 @@ In fact you may know that every documentation is written by default in English a
 		 return (*);
 	}
 ```
+
+for any other documentation, the only one, that's allow is [THIS ONE](http://www.w3schools.com/jsref/default.asp)
