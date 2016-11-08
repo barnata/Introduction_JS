@@ -63,3 +63,19 @@ But, you need a new thing to controll what has to be made when it's done, and wh
 	** This is an Error Test is logged onto the screen
 	*/
 ```
+
+In fact this is not really aynchronous at 100% but at this moment you just need to understand this !
+
+##Help me cleaning this mess, Ajax !!
+Ok, I agree that, this joke was maybe to much, because This AJAX is don't related to the cleaning product, it means Asynchronous JAvascript and Xml, well you reallise now why did i talk about asynchronous programming !! this is the most important thing you have to understand, AJAX alows to read files in a new way, and to be trully respectable, it's hard to explain what is AJAX without trying and understand it by yourself so let's write some code as I always do, that's the best way I always had to explain something !
+```javascript
+ var xhr = new XMLHttpRequest(); // This is the Object you need to make Ajax call (I remenber that in Ajax you got the XML side and Javascript and this is all we get here)
+ xhr.open(HTTP_TYPE_OF_REQUEST, __FILE__, true);
+ xhr.onreadystatechange = function() {
+ 	// Let's overwrite the function associated to xhr !
+	if(xhr.readyState == 4 && xhr.status == 200) { // explanation in the Breviaire.md
+		console.log(xhr.responce); // Same as upside
+	}else console.log(xhr.readyState);
+ }
+ xhr.send(null); // It means sending the AJAX call
+```
