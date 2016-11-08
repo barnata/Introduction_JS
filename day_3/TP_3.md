@@ -73,7 +73,7 @@ Ok, I agree that, this joke was maybe to much, because This AJAX is don't relate
  xhr.open(HTTP_TYPE_OF_REQUEST, __FILE__, true);
  xhr.onreadystatechange = function() {
  	// Let's overwrite the function associated to xhr !
-	if(xhr.readyState == 4 && xhr.status == 200) { // explanation in the Breviaire.md
+	if(xhr.readyState === 4 && xhr.status === 200) { // explanation in the Breviaire.md
 		console.log(xhr.responce); // Same as upside
 	}else console.log(xhr.readyState);
  }
