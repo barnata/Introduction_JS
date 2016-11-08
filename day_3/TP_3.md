@@ -1,13 +1,28 @@
 #TP 3
-##Introduction a l'AJAX
-Hello tout le monde, aujourd'hui, apres nous commencons le partie interessante du JS, effectivement jusqu'a present les choses banales du JS, faisons ainsi un ref recapitulatif de ce dont on a vu ensemble :
-- La declaration, affectation, modification de variables ainsi que le typage un peu special de ce genre de langage.
-- La creation de fonction
-- La manipulation du DOM
+##Introduction to AJAX and asynchronous programming and anonymous functions
 
-Du coup aujourd'hui nous allons aborder les deux notions suivante : Les fonctions anonymes et les requetes AJAX et plus particulierement une certaine maniere de programmer, Asynchrones Functionnal Programming car oui le JS tire sa puissance et sa renomee pour deux choses, la programmation fonctionnel et la programmation Asynchrone.
-##La programmation fonctionnel
-Qu'est ce que la programmation fonctionnel me direz vous ?
-La programmation fonctionnel se differe de la programmation objet (e.g : Java, C++), qui est un paradigme complexe et en constante evolution, la programmation fonctionnel est constante et se base comme son nom l'indique sur une modification, creation etc... par le biais de fonction. Pour faire simple la ou en JAVA tout n'est qu'Objet, en JS tout n'est histoire que de fonction.
-Cela permet ?? choses :
-La premiere est la gestion de memoire qui est reduite, puisque les differentes structure de donnes vont avoir tendance a etre limites a de simple tableau, ou encore des buffer mais rien de bien complexe au niveau [Complexite Algoritmique](https://moodle.iut.univ-paris8.fr/pluginfile.php/10378/mod_resource/content/0/Complexite_beamer.pdf)
+Hi everyone, today is great day to talk about the most important things of JS... The Asynchronous functions and Ajax calls. but before let's recap things we've seen before :
+- How to make functions, write variables, and other primitive stuff of JS you need to know
+- Manipulate Javascript files and inclusions
+- Manipulate the DOM (wich for me require to be worked (#MayBecomeTP4))
+
+## This make no sense... You told us that a function like every needed a name
+Hell yeah .. I remember talking about it... but you'll learn that most people, those who programming with JS technologie doesn't write functions like we've made anynore, because in JS, you have to remember that a variable can be anything at anytinme
+For exemple, you can make thoses things
+```javascript
+	var a;
+	a = 12;
+	console.log(a); // prints 12
+	a = "Hello World !"';
+	console.log(a); // prints Hello World
+	a = 12.4e132;
+	console.log(a)// prints 0.0000000[...]124132
+	a = function(arg_1, arg_2) {
+	  console.log(arg_1);
+	  if(typeof arg_2 == "string") {
+	  	    console.log("args_2 is a string !!!");
+	  }else throw new Error("args_2 must be a string");
+	}
+	console.log(a); // prints [function Function]
+	console.log(a(2,"Hello"))// prints undifined then 2 and args_2 is a string !!!
+```
