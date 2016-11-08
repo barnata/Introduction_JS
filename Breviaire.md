@@ -46,3 +46,25 @@ In fact you may know that every documentation is written by default in English a
 ```
 
 for any other documentation, the only one, that's allow is [THIS ONE](http://www.w3schools.com/jsref/default.asp)
+
+##AJAX programming
+```javascript
+	var xhr = new XMLHttpRequest(); // Object needed to make AJAX calls
+	xhr.open(HTTP_REQUIEST_TYPE, __FILE__, true); // Open function to prepare the AJAX
+	xhr.onreadystatechange = function() {
+		// Code goes here !
+		//redefinition of the function
+	}
+	xhr.send(formData || null) // send the request with or without data (in case of post call)
+	
+```
+If you remember in the function you will check the ready state :
+- 1 : The xhr object has been created
+- 2 : the xhr octed is ready to send (after open function);
+- 3 : waiting for answers, after the send function called
+- 4 : xhr is ready to get answer
+
+Then you will check the status code of the answer
+- 200 : HTTP code to tell everything's fine
+- 404 : Page not found
+- 500 : Internal Server Error
