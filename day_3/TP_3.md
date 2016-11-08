@@ -26,3 +26,40 @@ For exemple, you can make thoses things
 	console.log(a); // prints [function Function]
 	console.log(a(2,"Hello"))// prints undifined then 2 and args_2 is a string !!!
 ```
+This exemple may help you to hopefully understand some things better ! So now, you know how to write down an anonymous function, remember this, because you may need it in a few weeks.
+
+##Ok, then what is aynchronous programming
+The second thing I wanna talk about today is the that JS programming is known because of it's own way of programming, I mean it's not like JAVA wich is an Object Oriented Programming way, it a functionnal, it means that anything in JS is related to a function, for exemple, if you want to change someting you may need a function, if you want to get a specific value or structure you need a function, in fact, at eveytime you need a function !!!
+In asynchronous functionnal progreamming (as i like to call AFP), you need to make first anonymous functions that can be called when work is done by the first one.
+
+##WHAT is asynchronous
+At the IUT, and in so many other programming language you have learned, you used to write code that needed the previous one to be finished before beeing exectuted, and that's what we call synchronous programming ! Then, you have understood that asynchronous programming doesn't need a line to be fully finished before being executed.
+But, you need a new thing to controll what has to be made when it's done, and what do we need ... aaaah think.... think again ... Hell, it's what you get in mind since the begining of this centense... anonymous functions ! Those controlls the reaction of the function when it's done, ut let's write an exemple of it to help you to understand things
+```javascript
+	var callback = function(err, arg) {
+	    if(err) return (err);
+	    else {
+	    	 console.log("Work is done with this arg ", arg);
+	    	 return (0);
+	    }
+	}
+
+	var MainFunction = function (arg, next) {
+	    console.log(arg, " is passed as parameter !");
+	    next(null, arg);
+	    return (next(new Error("This is an Error Test !"), arg));
+	}
+
+	var ret = MainFunction(21,callback);
+	console.log(ret);  // prints -1
+
+
+	/*
+	** This function prints 21 is passed as parameter
+	** Then call the callback function called next in the main function
+	** that first call of next prints Work is done with this arg 21 
+	** Then the second call return the error
+	** After it's returns 0 that is stored in ret
+	** 0 is logged onto the screen
+	*/
+```
