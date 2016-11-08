@@ -13,7 +13,7 @@ For exemple, you can make thoses things
 	var a;
 	a = 12;
 	console.log(a); // prints 12
-	a = "Hello World !"';
+	a = "Hello World !";
 	console.log(a); // prints Hello World
 	a = 12.4e132;
 	console.log(a)// prints 0.0000000[...]124132
@@ -59,7 +59,7 @@ But, you need a new thing to controll what has to be made when it's done, and wh
 	** Then call the callback function called next in the main function
 	** that first call of next prints Work is done with this arg 21 
 	** Then the second call return the error
-	** After it's returns 0 that is stored in ret
-	** 0 is logged onto the screen
+	** After it's returns err that is stored in ret
+	** This is an Error Test is logged onto the screen
 	*/
 ```
