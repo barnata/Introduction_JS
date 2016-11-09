@@ -28,6 +28,23 @@ ainsi dans la balise body, apres la div nous allons rajouter la balise script au
 A partir de maintenant je ne veux voir que du code JS dans des fichier js !!
 Faites quelques fonction de votre choix et utilisez les pour voir si tout marche encore bien
 
+WARNING : Nouveaute, je vais vous demander maintenant, de choisir vos type de variable, c'est a dire pour rappel qu'il existe var : const : let (depuis EcmaScript 6) donc je vous conseil de faire un tour sur le breviaire pour en comprendre un peu plus sur les choix a faire.
+
+Voici quand meme un petit exemple sans explication pour les plus perspicaces.
+
+```javascript
+	const PI = 3.14159
+	var string = "124113";
+	function getFirstLetterAsNumber (input_string) {
+		 let intern_value = 42;
+		 var return_value = input_string[0] - '0';
+		 if(return_value == intern_value) return (return_value);
+		 else return (PI);
+	}
+	var ret = getFirstLetterAsNumber(string);
+	console.log(ret); // prints 3.14159
+```
+
 ##Exo 2
 Nous allons maintenant attaquer le DOM afin de creer le nouveau Facebook ... non je rigole bien sur que non, mais on verra qu'on peut faire un truc sympas avec seulement une masnipulation du DOM
 voici donc deux fonctions que vous allez utiliser tout le temps a vous de le comprendre avec des manipulation, pensez a les utiliser les manipuler et comprendre par vous meme ce qu'ils font
@@ -49,6 +66,8 @@ Une fois terminé, appelez vos fonctions dans votre premier fichier app.js afin 
 
 ##Exo 3
 Pour cet exercice, je vous demanderai de trouver par vous meme AVEC LES MAN ET LES DOC de javascript par exemple la [MDN de Mozilla](https://developer.mozilla.org/fr/docs/Web/JavaScript) comment ajouter une image en JS puis me faire un mini site de presentation avec que des fonction (Il faudra surement creer une nouvelle fonction pour la gestion d'image :) )
+
+Pour ceux qui se poserait cependant la question, je vous rassure, je resterai quand meme a disposition pour ceux qui ne comprennent vraiment pas, cette exercice a pour but de vous apprendre a chercher par vous meme, mais meme moi a mon epoque j'ai dut a certain moment m'aider d'Internet, alors disons que je serait pour vous ce que Internet a ete pour moi :)
 
 ##Exo 4
 Nous allons voir dans cette parti quelque chose de necessaire en JS, les evenements !!!
