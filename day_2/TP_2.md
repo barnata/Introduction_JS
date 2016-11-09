@@ -28,7 +28,7 @@ ainsi dans la balise body, apres la div nous allons rajouter la balise script au
 A partir de maintenant je ne veux voir que du code JS dans des fichier js !!
 Faites quelques fonction de votre choix et utilisez les pour voir si tout marche encore bien
 
-WARNING : Nouveaute, je vais vous demander maintenant, de choisir vos type de variable, c'est a dire pour rappel qu'il existe var : const : let (depuis EcmaScript 6) donc je vous conseil de faire un tour sur le breviaire pour en comprendre un peu plus sur les choix a faire.
+**WARNING** : Nouveaute, je vais vous demander maintenant, de choisir vos type de variable, c'est a dire pour rappel qu'il existe var : const : let (depuis EcmaScript 6) donc je vous conseil de faire un tour sur le breviaire pour en comprendre un peu plus sur les choix a faire.
 
 Voici quand meme un petit exemple sans explication pour les plus perspicaces.
 
