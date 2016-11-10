@@ -23,7 +23,7 @@ nous partirons ainsi avec cette structure :
 La derniere fois je vous ai demander de mettre tout votre code JS dans une balise script, mais vous vous doutez que si on devait mettre tout le code JS dans ces balises, ca deviendrait assez galere de s'y retrouver... ainsi nous allons maintenant separer notre code JS de notre code HTML dans des fichiers .js.
 Dans la balise body, apres la div nous allons rajouter la balise script auquel nous allons donner un nouvelle attriut src de ce type
 ```html
-	<script tpye='text/javascript' src='JS/app.js'></script>
+	<script type='text/javascript' src='JS/app.js'></script>
 ```
 
 A partir de maintenant je ne veux voir que du code JS dans des fichiers js !!
