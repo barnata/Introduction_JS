@@ -6,8 +6,8 @@ function CreateElement(TYPE, CONTENT, PARENT) {
     return elem_tag;
 }
 
-function WrapIntoNode(CHILD_NODE, PARENT) {
-    return CHILD_NODE.appendChild(PARENT);
+function WrapIntoNode(PARENT, CHILD_NODE) {
+    return PARENT.appendChild(CHILD_NODE);
 }
 
 function createTextNode(CONTENT, PARENT) {
@@ -39,4 +39,13 @@ function createImage(SRC, ATTRIBUTES) {
         }
     }
     return img;
+}
+
+function createForm(METHOD, ACTION, CHILD) {
+    var form =  document.createElement('form');
+    form.setAttribute('method',METHOD);
+    form.setAttribute('action',ACTION);
+    form.appendChild(CHILD);
+
+    return form;
 }
